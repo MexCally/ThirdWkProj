@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.webp" alt="Restaurant Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h1>Contact Us</h1>
+            <p> Hungry Yet? Don’t Wait! </p> 
+            <p> <strong>Order Now </strong>to enjoy a feast of flavors, made just for you.  </p> 
+
+            <h3> How It Works Section:</h3>
+            <ol>
+            <li> Browse & Order: <p> Choose your favorites from our menu.</p> </li>
+            <li> Freshly Prepared:<p> We make everything fresh just for you.</p></li>
+            <li> Fast Delivery:<p> Get your food hot and ready at your doorstep.</p> </li>
+            </ol>  
+            <p> 
+Place your order in minutes and experience food made with care!</p>
+
+            <div class="contact-form">
+                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <div class="mb-3">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="tel" name="tel" class="form-control" placeholder="Your Telphone" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="Password" name="Password" class="form-control" placeholder="Your Password" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea name="message" class="form-control" rows="3" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success w-100">Send</button>
+                </form>  
+            </div>   
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Restaurant Name. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
